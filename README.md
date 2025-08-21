@@ -1,12 +1,38 @@
-# React + Vite
+# 🛒 Pet Project №3 — MarketPlace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Описание проекта
+Pet-проект маркетплейса, разработанный для практики работы с **React** и современным фронтенд-стеком.  
+Проект включает функционал отображения списка товаров, фильтрацию по категориям, сортировку, корзину и страницу отдельного товара.  
 
-Currently, two official plugins are available:
+Сейчас ведётся перенос проекта на **Next.js** с использованием **TypeScript** и **SCSS**.  
+Степень завершенности переноса: **75%** (локальный репозиторий).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Использованные технологии
+- **React**
+- **React Router**
+- **Next.js** (в процессе переноса)
+- **TypeScript** (в процессе переноса)
+- **SCSS** (в процессе переноса)
+- **Custom Hooks** (`useFetch` для получения данных из API)
+- **Fetch API** для загрузки данных
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Реализованный функционал
+- Получение списка товаров из API (**fetch**)
+- Отображение карточек товаров
+- Фильтры по категориям
+- Сортировка списка товаров
+- Корзина с добавлением и удалением товаров
+- Страница товара с подробным описанием
+- Кастомный хук `useFetch` для удобной работы с API
+
+---
+
+## 📦 Статус проекта
+- ✅ Версия на **Vite** доступна по ссылке:  
+  👉 [Demo на GitHub Pages](https://nnspecter.github.io/MarketPlace/)  
+- 🔄 Перенос на **Next.js + TypeScript + SCSS** (завершено на 75%, пока локально)
+
